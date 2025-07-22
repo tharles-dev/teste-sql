@@ -2,7 +2,7 @@
  mostrando as colunas id, nome, salario. Ordene o resultado pelo nome em ordem ascendente.
 */
 
-SELECT ID_VENDEDOR AS ID, NOME, SALARIO  FROM VENDEDORES WHERE INATIVO = FALSE;
+SELECT ID_VENDEDOR AS ID, NOME, SALARIO  FROM VENDEDORES WHERE INATIVO = FALSE ORDER BY NOME;
 
 
 /* Funcionários com Salário Acima da Média: Escreva uma query para listar os funcionários que possuem um salário acima da média salarial de todos os funcionários.
